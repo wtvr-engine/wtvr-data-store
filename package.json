@@ -1,0 +1,26 @@
+{
+  "name": "wtvr-data-store",
+  "version": "1.0.0",
+  "description": "A simple data store for data sharing and saving in WTVR engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wtvr-engine/wtvr-data-store.git"
+  },
+  "keywords": [
+    "wtvr",
+    "engine",
+    "data",
+    "store",
+    "webcomponent"
+  ],
+  "author": "John Tiesselune <tiesse@tiesselune.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wtvr-engine/wtvr-data-store/issues"
+  },
+  "homepage": "https://github.com/wtvr-engine/wtvr-data-store#readme"
+}
