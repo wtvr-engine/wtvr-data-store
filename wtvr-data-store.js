@@ -6,6 +6,8 @@ export default class WTVRDataStore extends HTMLElement {
         }
         if(this.hasAttribute("backend")){
             this.backend = this.getAttribute("backend");
+        }else{
+            this.backend = "local";
         }
         this.synced = false;
     }
@@ -29,7 +31,6 @@ export default class WTVRDataStore extends HTMLElement {
     async syncDown(){
         if(navigator.onLine && !this.synced){
             this.synced = true;
-            return true;
         }
         return this.synced;
     }
