@@ -2,7 +2,7 @@
   "name": "wtvr-data-store",
   "version": "1.0.0",
   "description": "A simple data store for data sharing and saving in WTVR engine",
-  "main": "index.js",
+  "main": "wtvr-data-store.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,10 +22,5 @@
   "bugs": {
     "url": "https://github.com/wtvr-engine/wtvr-data-store/issues"
   },
-  "homepage": "https://github.com/wtvr-engine/wtvr-data-store#readme",
-  "wtvr-module" : {
-    "files" : [
-      "wtvr-data-store.js"
-    ]
-  }
+  "homepage": "https://github.com/wtvr-engine/wtvr-data-store#readme"
 }
